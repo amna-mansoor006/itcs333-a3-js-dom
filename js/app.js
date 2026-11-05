@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const filterDone = document.getElementById('filter-done');
 
   let currentFilter = 'all';
-
   function updateCounter() {
     const left = list.querySelectorAll('li:not(.completed)').length;
     counter.textContent = `${left} item(s) left`;
